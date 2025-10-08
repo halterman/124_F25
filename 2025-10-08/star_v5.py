@@ -15,7 +15,7 @@ def star(x: float, y: float, size: float, color: str) -> None:
 
 def click(x: float, y: float) -> None:
     star(x, y, 50, 'blue')
-    print(f'x = {x}, y = {y}')
+    print(f'\ax = {x}, y = {y}')
     turtle.update()
 
 # star(-200, 200, 200, 'red')
