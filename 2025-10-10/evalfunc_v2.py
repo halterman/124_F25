@@ -18,6 +18,7 @@ def multiply(a: float, b: float) -> float:
     """
     return a * b
 
+
 def eval(f: ArithFunc, a: float, b: float) -> float:
     """
     Applies the f function to the two parameters a and b 
@@ -42,3 +43,4 @@ print('--------------------------------------------------')
 # eval function
 print(f'{num1} plus {num2} equals {eval(add, num1, num2)}')
 print(f'{num1} times {num2} equals {eval(multiply, num1, num2)}')
+
