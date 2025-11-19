@@ -6,16 +6,15 @@ List processing routines
 def maximum(a: list[int]) -> int | None:
     """
     Returns the maximum value in a list of integers.
-    Return None if the list is empty.
+    Returns None if the list is empty.
     """
-    if len(a) == 0:
+    if a == []:
         return None
-    else:
-        max = a[0]
-        for elem in a:
-            if elem > max:
-                max = elem
-        return max
+    max = a[0]
+    for x in a:
+        if x > max:
+            max = x
+    return max
 
 
 def count_evens(seq: list[int]) -> int:
@@ -24,7 +23,8 @@ def count_evens(seq: list[int]) -> int:
     of integers.
     """
     count = 0
-    for elem in seq:
-        if elem % 2 == 0:
+    for x in seq:
+        if x % 2 == 0:
             count += 1
     return count
+

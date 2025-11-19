@@ -13,6 +13,10 @@ True
 >>> maximum(a)
 4
 
+>>> a = [-10, -2, -44, -8, -51]
+>>> maximum(a)
+-2
+
 >>> from listfuncs import count_evens
 >>> a = [4, 0, 7, 3, 10, 17]
 >>> count_evens(a)

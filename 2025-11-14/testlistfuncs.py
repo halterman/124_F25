@@ -21,7 +21,7 @@ def test_maximum() -> None:
 
 
 #-----------------------------------------------------
-# equivalence tests
+# count_evens tests
 #-----------------------------------------------------
 
 def test_count_evens() -> None:
