@@ -11,4 +11,3 @@ for ch in contents:
 
 for letter, count in enumerate(counters):
     print(chr(ord('A') + letter), count)
-print()
