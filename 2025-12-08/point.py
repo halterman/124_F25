@@ -23,10 +23,18 @@ class My_Point:
         return f'({self.x}, {self.y})'
     
     def distance(self, p: My_Point) -> float:
-        # Need to compute the distance, but that is next time
-        return 0.0
+        import math
+        x1 = self.x
+        y1 = self.y
+        x2 = p.x
+        y2 = p.y
+        dist = math.sqrt((x2 - x1)*(x2 - x1) + (y2 - y1)*(y2 - y1))
+        return dist
 
 
-p1 = My_Point(3.5, 10.0)
+p1 = My_Point(0.0, 0.0)
+p2 = My_Point(1.0, 1.0)
 
 print(p1)
+print(p2)
+print(p1.distance(p2))
